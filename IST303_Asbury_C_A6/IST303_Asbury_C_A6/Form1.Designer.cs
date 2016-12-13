@@ -1,6 +1,6 @@
 ﻿namespace IST303_Asbury_C_A6
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -36,6 +36,7 @@
             this.btnSortByDate = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.txtToDo = new System.Windows.Forms.TextBox();
+            this.lblTest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -55,6 +56,7 @@
             this.btnQuit.TabIndex = 1;
             this.btnQuit.Text = "&Quit";
             this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnAdd
             // 
@@ -64,6 +66,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "&Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnRemove
             // 
@@ -94,10 +97,11 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(93, 278);
+            this.dateTimePicker1.Location = new System.Drawing.Point(93, 221);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 6;
+            this.dateTimePicker1.Value = new System.DateTime(2016, 12, 13, 16, 14, 54, 0);
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // txtToDo
@@ -107,13 +111,23 @@
             this.txtToDo.Size = new System.Drawing.Size(100, 20);
             this.txtToDo.TabIndex = 7;
             // 
-            // Form1
+            // lblTest
+            // 
+            this.lblTest.AutoSize = true;
+            this.lblTest.Location = new System.Drawing.Point(141, 302);
+            this.lblTest.Name = "lblTest";
+            this.lblTest.Size = new System.Drawing.Size(35, 13);
+            this.lblTest.TabIndex = 8;
+            this.lblTest.Text = "label1";
+            // 
+            // frmMain
             // 
             this.AcceptButton = this.btnAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnQuit;
             this.ClientSize = new System.Drawing.Size(593, 456);
+            this.Controls.Add(this.lblTest);
             this.Controls.Add(this.txtToDo);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnSortByDate);
@@ -122,8 +136,9 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.listBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmMain";
+            this.Text = "To Do List";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,6 +154,7 @@
         private System.Windows.Forms.Button btnSortByDate;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox txtToDo;
+        private System.Windows.Forms.Label lblTest;
     }
 }
 
