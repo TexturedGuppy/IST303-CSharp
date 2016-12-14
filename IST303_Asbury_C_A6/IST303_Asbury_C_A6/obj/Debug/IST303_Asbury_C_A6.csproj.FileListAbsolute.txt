@@ -7,3 +7,12 @@ F:\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_A
 F:\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.exe
 F:\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.pdb
 F:\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.frmMain.resources
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\bin\Debug\IST303_Asbury_C_A6.exe.config
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.exe
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.pdb
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\bin\Debug\IST303_Asbury_C_A6.exe
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\bin\Debug\IST303_Asbury_C_A6.pdb
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.csprojResolveAssemblyReference.cache
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.frmMain.resources
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.Properties.Resources.resources
+C:\Users\asbury56\Documents\GitHub\IST303-CSharp\IST303_Asbury_C_A6\IST303_Asbury_C_A6\obj\Debug\IST303_Asbury_C_A6.csproj.GenerateResource.Cache

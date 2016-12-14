@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lstList = new System.Windows.Forms.ListBox();
             this.btnQuit = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
@@ -39,13 +39,13 @@
             this.lblTest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lstList
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(425, 34);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(156, 264);
-            this.listBox1.TabIndex = 0;
+            this.lstList.FormattingEnabled = true;
+            this.lstList.Location = new System.Drawing.Point(425, 34);
+            this.lstList.Name = "lstList";
+            this.lstList.Size = new System.Drawing.Size(156, 264);
+            this.lstList.TabIndex = 0;
             // 
             // btnQuit
             // 
@@ -97,9 +97,9 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(93, 221);
+            this.dateTimePicker1.Location = new System.Drawing.Point(12, 221);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
             this.dateTimePicker1.TabIndex = 6;
             this.dateTimePicker1.Value = new System.DateTime(2016, 12, 13, 16, 14, 54, 0);
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
@@ -135,7 +135,7 @@
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnQuit);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lstList);
             this.Name = "frmMain";
             this.Text = "To Do List";
             this.Load += new System.EventHandler(this.frmMain_Load);
@@ -146,7 +146,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lstList;
         private System.Windows.Forms.Button btnQuit;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnRemove;
